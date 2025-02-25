@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #2c3e50, #ff6347);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navItem a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .navItem a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f1c40f;
+  }
+  
+  .authButton {
+    background-color: #f1c40f;
+    color: #2c3e50;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-left: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .authButton:hover {
+    background-color: #e1b30e;
+    color: white;
+  }

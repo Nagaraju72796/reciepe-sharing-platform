@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #2c3e50, #ff6347);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navItem a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .navItem a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #f1c40f;
+  }
+  
+  .searchContainer {
+    position: relative;
+  }
+  
+  .searchInput {
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    width: 200px;
+    transition: all 0.3s ease;
+  }
+  
+  .searchInput:focus {
+    width: 250px;
+    outline: none;
+    background-color: white;
+  }
+  
+  .searchIcon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+  
+  .profilePic {
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .profilePic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
