@@ -1,0 +1,181 @@
+.main {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  .publishButton {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .recipeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .recipeCard {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .recipeCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 1rem;
+  }
+  
+  .cardContent h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .time {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .likeButton {
+    background: none;
+    border: none;
+    color: #ff6347;
+    font-size: 1.1rem;
+  }
+  
+  .editButton {
+    background: #f1c40f;
+    color: #2c3e50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .loading,
+  .error,
+  .empty {
+    text-align: center;
+    padding: 4rem;
+  }
+  
+  .loading p,
+  .error,
+  .empty p {
+    font-size: 1.2rem;
+  }
+  
+  .error {
+    color: #ff6347;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .modalContent h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .modalError {
+    color: #ff6347;
+    margin-bottom: 1rem;
+  }
+  
+  .modalForm label {
+    display: block;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #777;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .addButton {
+    background: #f1c40f;
+    color: #2c3e50;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .modalFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .closeButton {
+    background: #777;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .submitButton {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+  }

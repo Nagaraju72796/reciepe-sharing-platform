@@ -1,0 +1,106 @@
+.authContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f4f7fa, #e0e7ff);
+  }
+  
+  .authCard {
+    display: flex;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .leftPanel {
+    background: url('/login-background.jpg') no-repeat center/cover;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .welcomeText {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .rightPanel {
+    background: white;
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  .rightPanel h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #777;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .passwordWrapper {
+    position: relative;
+  }
+  
+  .toggleButton {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 8px;
+  }
+  
+  .error {
+    color: #ff6347;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .submitButton:hover {
+    background-color: #e5533d;
+  }
+  
+  .linkText {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }

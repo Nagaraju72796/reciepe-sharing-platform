@@ -1,0 +1,104 @@
+.main {
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .tagsSection {
+    margin-bottom: 2rem;
+  }
+  
+  .tagList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+  }
+  
+  .tagButton {
+    background-color: white;
+    border: 1px solid #ff6347;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .tagButton:hover {
+    background-color: #ff6347;
+    color: white;
+  }
+  
+  .recipeSection {
+    margin-bottom: 3rem;
+  }
+  
+  .recipeSection h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+  }
+  
+  .recipeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .recipeCard {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .recipeCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .cardContent {
+    padding: 1rem;
+  }
+  
+  .cardContent h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .time {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .likes {
+    font-weight: 600;
+    color: #ff6347;
+  }
+  
+  .likeButton {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .likeButton:hover {
+    color: #ff6347;
+  }
